@@ -1,14 +1,11 @@
 name: Hello World
 on: workflow_dispatch    
 jobs:
-    Hello:
+    build:
         runs-on: ubuntu-latest
         steps:
-            - name: hello steps
-            run: 
-            echo "this is the first line"
-            echo "this is the second line"
-            echo "this is the third line"
-            echo "this is the fifth line"
+            - name: build steps
+                run: echo "this is the first line"
+            
             
         
