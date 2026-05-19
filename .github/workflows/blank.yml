@@ -4,7 +4,7 @@ jobs:
     Hello:
         runs-on: ubuntu-latest
     steps:
-      - name: Run a multi-line script
+      - name: Hello steps:      
         run: |
           echo "Welcome to GHA",
           echo "Another set"
