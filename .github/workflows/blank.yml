@@ -1,16 +1,11 @@
 name: Hello World
-
-on: workflow_dispatch
-
+on: workflow_dispatch    
 jobs:
-    runs-on: ubuntu-latest
-
+    Hello:
+        runs-on: ubuntu-latest
     steps:
-    
-      - name: Hello step
-        run: echo "This is the test"
-      
       - name: Run a multi-line script
         run: |
           echo "Welcome to GHA",
           echo "Another set"
+          echo "This is the third line" 
