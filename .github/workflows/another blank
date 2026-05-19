@@ -1,0 +1,13 @@
+name: Hello World
+on: workflow_dispatch    
+jobs:
+    Hello:
+        runs-on: ubuntu-latest
+    steps:
+      - name: Run a multi-line script
+        run: |
+          echo "Welcome to GHA",
+          echo "Another set"
+          echo "This is the third line" 
+          echo "This is the fourth line"
+          echo "This is the fifth line"
