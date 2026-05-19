@@ -7,7 +7,8 @@ jobs:
       - name: Hello steps:      
         run: |
           echo "Welcome to GHA",
-          echo "Another set"
+          echo "Another set of few more lines"
           echo "This is the third line" 
           echo "This is the fourth line"
           echo "This is the fifth line"
+        
