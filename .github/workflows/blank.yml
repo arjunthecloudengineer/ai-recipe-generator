@@ -3,9 +3,9 @@ on: workflow_dispatch
 jobs:
     Hello:
         runs-on: ubuntu-latest
-    steps:
-      - name: Hello steps      
-        run: |
-          echo "Welcome to GHA",
-          echo "Another set"
-          echo "This is the third line" 
+        steps:
+            - name: hello steps
+            run: 
+            echo "this is the first line"
+            echo "this is the second line"
+            echo "this is the third line"
