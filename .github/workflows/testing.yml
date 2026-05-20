@@ -1,0 +1,9 @@
+name: Deploy
+on: workflow_dispatch    
+jobs:
+    Deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: hello steps
+            run: echo "this is the first line"
+            
